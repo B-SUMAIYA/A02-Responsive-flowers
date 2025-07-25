@@ -133,10 +133,15 @@ align-items: center;
         color: aliceblue;
         font-weight: 900;
     }
-    .last{
+    
+    .ful.last{
         margin-top: 12.5rem;
         justify-content: center;
         padding: 3.125rem;
+    }
+    .last{
+        margin-top: 222px;
+        width: 100%;
     }
     .full{
 Width: 644px;
@@ -180,6 +185,7 @@ footer{
         display: flex;
         justify-content: space-between;
         border:2px solid white;
+        
     }
     .hidden{
         display: none;
@@ -195,7 +201,7 @@ footer{
 }
 .banner {
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 margin: 0.25rem;
 text-align: center;
 
@@ -207,7 +213,7 @@ text-align: center;
     grid-template-columns: repeat(2 , 1fr);
     gap: 250px;
     margin-right: 30rem;
-    padding: 0;
+    padding:0;
 }  
 .same{
    max-width: 5.875rem;
@@ -238,7 +244,79 @@ height: 100%;
     max-width: 0.625rem;
     margin-left: 2.5rem;
     }
+    .latest{
+        margin-top: 4.5rem;
 
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 11.125rem;
+        width: 100%;
+
+    }
+    .image img{
+        border-radius: 1.875rem;
+    }
+    .under{
+       margin-top: -15.375rem;
+        text-align: center;
+        color: aliceblue;
+      
+        font-weight: bold;
+    }
+   .iimg{
+    height: 300px;
+    width: 600px;
+   }
+   .mg{
+     height: 300px;
+    width: 600px;
+    margin-top: 100px;
+   }
+    
+.mgg{
+     height: 300px;
+    width: 600px;
+    margin-top: 200px;
+}
+  .last{
+        margin-top: 242px;
+        width: 100%;
+    }
+    .full{
+Width: 344px;
+Height: 3.125rem;
+Top: 0rem;
+Left: 0rem ;
+margin-top: -100px;
+
+
+    }
+    .form{
+        width: 800px;
+    
+    }
+    .top{
+        margin-top: 100px;
+    }
+    footer{
+    margin-top: 6.5rem;
+}
+.final{
+   display: grid;
+   grid-template-columns: repeat(1 , 1fr);
+    padding: 6.25rem;
+    
+}
+.paragraphh{
+    color:  rgba(137, 135, 161, 1);
+    display: grid;
+    grid-template-columns: repeat( 1 , 1fr);
+    gap: 1.875rem;
+}
+    
 }
 
 
