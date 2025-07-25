@@ -211,7 +211,7 @@ text-align: center;
 .plant{
   display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    gap: 250px;
+    gap: 300px;
     margin-right: 30rem;
     padding:0;
 }  
